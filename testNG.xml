@@ -2,8 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test  name="Test">
-  <parameter name="namesA" value="Ankitaa,Anirudh,Anavi,Haru" />
-    <parameter name="namesB" value="Anvith,Ankith,Yamini,Haru" />
+ 
     <classes>
       <class name="ApachePOI.Assignment.ExcelDataProcessor"/>
     </classes>
