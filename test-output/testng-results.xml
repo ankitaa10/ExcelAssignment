@@ -1,57 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-13T17:29:11 IST" name="Suite" finished-at="2024-05-13T17:29:13 IST" duration-ms="1218">
+  <suite started-at="2024-05-14T14:31:34 IST" name="Suite" finished-at="2024-05-14T14:31:35 IST" duration-ms="895">
     <groups>
     </groups>
-    <test started-at="2024-05-13T17:29:11 IST" name="Test" finished-at="2024-05-13T17:29:13 IST" duration-ms="1218">
-      <class name="ApachePOI.Assignment.ExcelDataProcessor">
-        <test-method signature="DataProcessor2([[Ljava.lang.String;)[pri:0, instance:ApachePOI.Assignment.ExcelDataProcessor@5d0a1059]" started-at="2024-05-13T17:29:11 IST" name="DataProcessor2" data-provider="excelData" finished-at="2024-05-13T17:29:13 IST" duration-ms="1174" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-[public static void ApachePOI.Assignment.ExcelDataProcessor.DataProcessor2(java.lang.String[][]) throws java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: DataProcessor2([Parameter{index=0, type=[[Ljava.lang.String;, declaredAnnotations=[]}])
-Arguments: [null,(java.lang.String) Ankitaa,(java.lang.String) Anirudh,(java.lang.String) Anavi]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public static void ApachePOI.Assignment.ExcelDataProcessor.DataProcessor2(java.lang.String[][]) throws java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: DataProcessor2([Parameter{index=0, type=[[Ljava.lang.String;, declaredAnnotations=[]}])
-Arguments: [null,(java.lang.String) Ankitaa,(java.lang.String) Anirudh,(java.lang.String) Anavi]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+    <test started-at="2024-05-14T14:31:34 IST" name="Test" finished-at="2024-05-14T14:31:35 IST" duration-ms="895">
+      <class name="ApachePOI.Assignment.ExcelDataProcessor2">
+        <test-method signature="DataProcessor(ApachePOI.Assignment.ExcelData)[pri:0, instance:ApachePOI.Assignment.ExcelDataProcessor2@485966cc]" started-at="2024-05-14T14:31:35 IST" name="DataProcessor" data-provider="excelData" finished-at="2024-05-14T14:31:35 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApachePOI.Assignment.ExcelData@6815c5f2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DataProcessor2 -->
-      </class> <!-- ApachePOI.Assignment.ExcelDataProcessor -->
+        </test-method> <!-- DataProcessor -->
+      </class> <!-- ApachePOI.Assignment.ExcelDataProcessor2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
